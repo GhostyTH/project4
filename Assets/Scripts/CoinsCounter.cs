@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class Coins : MonoBehaviour
+public class coins : MonoBehaviour
 {
     public static CoinsCounter instance;
 
