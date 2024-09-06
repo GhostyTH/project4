@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class retry : MonoBehaviour
+public class Retry : MonoBehaviour
 {
-    public void Retry()
+    public void retry()
     {
         SceneManager.LoadSceneAsync(2);
     }

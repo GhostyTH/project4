@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class play : MonoBehaviour
+public class Play : MonoBehaviour
 {
     public void PlayGame()
     {

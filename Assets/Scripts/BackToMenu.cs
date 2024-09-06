@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class backtomenu : MonoBehaviour
+public class BackToMenu : MonoBehaviour
 {
     public void PlayGame()
     {
