@@ -815,6 +815,7 @@ GameObject:
   - component: {fileID: 741144833}
   - component: {fileID: 741144836}
   - component: {fileID: 741144837}
+  - component: {fileID: 741144838}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -918,6 +919,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7fd6f1b924ee37d478ce375961546992, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &741144838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741144832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5f6aab6671612644b1cd589e75c07d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &987919750
@@ -1510,9 +1523,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 741144836}
-        m_TargetAssemblyTypeName: play, Assembly-CSharp
-        m_MethodName: PlayGame
+      - m_Target: {fileID: 741144838}
+        m_TargetAssemblyTypeName: ExitGame, Assembly-CSharp
+        m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1979,10 +1992,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b44d0ea0e94d0e4498c93ffa087d490, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MusicSource: {fileID: 2035775578}
-  SFXSource: {fileID: 1638948732}
-  Background: {fileID: 8300000, guid: 97c659ca016cd4e0185b27275fbbc2f7, type: 3}
-  CoinCollect: {fileID: 0}
 --- !u!4 &2078736603
 Transform:
   m_ObjectHideFlags: 0

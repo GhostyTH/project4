@@ -55,7 +55,7 @@ public class movement : MonoBehaviour
     {
         if (other.CompareTag("Die"))
         {
-            SceneManager.LoadSceneAsync(6);
+            SceneManager.LoadSceneAsync(4);
         }
         if (other.CompareTag("Die_2"))
         {

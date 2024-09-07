@@ -24,9 +24,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Level_1.unity
     guid: bfeb5b57a84975748bad9b2b0b334d83
   - enabled: 1
-    path: Assets/Scenes/Retry 2.unity
-    guid: c031f7d6405b37e4d8c958cda608da90
-  - enabled: 1
     path: Assets/Scenes/Victory.unity
     guid: e00353f73f48a5640918888b711e8cd1
+  - enabled: 1
+    path: Assets/Scenes/Retry 2.unity
+    guid: c031f7d6405b37e4d8c958cda608da90
   m_configObjects: {}
