@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -344,9 +343,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 533364653}
-        m_TargetAssemblyTypeName: retry, Assembly-CSharp
-        m_MethodName: Retry
+      - m_Target: {fileID: 533364654}
+        m_TargetAssemblyTypeName: Retry, Assembly-CSharp
+        m_MethodName: retry
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -418,8 +417,8 @@ GameObject:
   - component: {fileID: 533364649}
   - component: {fileID: 533364648}
   - component: {fileID: 533364652}
-  - component: {fileID: 533364653}
   - component: {fileID: 533364654}
+  - component: {fileID: 533364653}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -522,7 +521,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 533364646}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b38219470f529e740bcdbd538420afa9, type: 3}
+  m_Script: {fileID: 11500000, guid: 68a302057653c32449426dc7b966b8f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &533364654
@@ -534,7 +533,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 533364646}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08eb5847a1dc8c0449cc9535424ee5c7, type: 3}
+  m_Script: {fileID: 11500000, guid: e641e37088c755d41a0998c1ccb3c3e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &554524283
@@ -798,9 +797,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 533364654}
-        m_TargetAssemblyTypeName: retry_2, Assembly-CSharp
-        m_MethodName: Retry_2
+      - m_Target: {fileID: 533364653}
+        m_TargetAssemblyTypeName: Retry_2, Assembly-CSharp
+        m_MethodName: retry_2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

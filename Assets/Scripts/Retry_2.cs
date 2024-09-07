@@ -7,6 +7,6 @@ public class Retry_2 : MonoBehaviour
 {
     public void retry_2()
     {
-        SceneManager.LoadSceneAsync(6);
+        SceneManager.LoadSceneAsync(5);
     }
 }
