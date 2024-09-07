@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using System;
 
 public class CoinsCounter : MonoBehaviour
 {
@@ -28,5 +29,8 @@ public class CoinsCounter : MonoBehaviour
         coinText.text = "Coins: " + currentCoins.ToString();
     }
 
-
+    public static implicit operator CoinsCounter(coinscounter v)
+    {
+        throw new NotImplementedException();
+    }
 }

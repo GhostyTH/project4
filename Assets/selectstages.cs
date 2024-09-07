@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class selectstages : MonoBehaviour
+public class SelectStages : MonoBehaviour
 {
     public void PlayGame()
     {

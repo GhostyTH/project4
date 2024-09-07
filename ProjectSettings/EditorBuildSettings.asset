@@ -6,6 +6,27 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 33211450ae257fe4cb54c6f0b0842f08
+  - enabled: 1
+    path: Assets/Scenes/SelectStages.unity
+    guid: 1593488da122179449b7f79d9fc3c52e
+  - enabled: 1
     path: Assets/Scenes/Level_0.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Selection.unity
+    guid: 279d4bf3dbca566469366a3a518b48a1
+  - enabled: 1
+    path: Assets/Scenes/Retry.unity
+    guid: 6c32b1cefa387e04280aa56db852c15f
+  - enabled: 1
+    path: Assets/Scenes/Level_1.unity
+    guid: bfeb5b57a84975748bad9b2b0b334d83
+  - enabled: 1
+    path: Assets/Scenes/Retry 2.unity
+    guid: c031f7d6405b37e4d8c958cda608da90
+  - enabled: 1
+    path: Assets/Scenes/Victory.unity
+    guid: e00353f73f48a5640918888b711e8cd1
   m_configObjects: {}
